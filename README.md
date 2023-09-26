@@ -12,14 +12,13 @@ PuzzloMatrix is a website in which users can create an account and log in to tak
 
 ## Install and Run Instructions
 
-* install node.js from: https://nodejs.org/en
-* fork code into VS code
-* install npm
-* create pkg.json by running "npm init"
-* install mysql2: "npm install --save mysql2"
-* install express: "npm install express"
-* install sequelize: "npm install --save sequelize"
-* run the server on localhost using "npm start"
+* npm i
+* add .env file with following variables for SQL database:
+* dbname: user_db
+	username: your mysql username
+	password: your mysql password
+
+* npm run start-dev
 * open the project on localhost:3001
 
 
