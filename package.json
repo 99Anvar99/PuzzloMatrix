@@ -4,13 +4,20 @@
   "description": "Quiz Taking applciation that stores user scores",
   "main": "index.js",
   "scripts": {
+    "start-dev": "nodemon src/server.js",
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ayush, Anvar, Michael ",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mysql2": "^3.5.2",
     "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
